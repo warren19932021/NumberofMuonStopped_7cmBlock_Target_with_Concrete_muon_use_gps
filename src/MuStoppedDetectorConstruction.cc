@@ -43,9 +43,9 @@
 MuStoppedDetectorConstruction::MuStoppedDetectorConstruction()
 : G4VUserDetectorConstruction(),
   fTheLogicalVolumeWithEnergyRecord(0),
-  BlockLength(1000),
-  BlockWidth(1000),
-  BlockHeight(1000),
+  BlockLength(700),
+  BlockWidth(70),
+  BlockHeight(70),
   ConcreteLength(40000),
   ConcretekWidth(40000),
   ConcreteHeight(950),
