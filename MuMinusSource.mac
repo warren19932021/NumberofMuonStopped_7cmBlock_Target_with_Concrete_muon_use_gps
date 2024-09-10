@@ -3,18 +3,29 @@
 
 
 # square plane source
-/gps/pos/type Plane
-/gps/pos/shape Square
+#/gps/pos/type Plane
+#/gps/pos/shape Square
 
 
 
-/gps/pos/centre 0. 0. -951.01 mm 
-/gps/pos/halfx 50. cm
-/gps/pos/halfy 50. cm
+#/gps/pos/centre 0. 0. -951.01 mm 
+#/gps/pos/halfx 50. cm
+#/gps/pos/halfy 50. cm
 
 
 #/gps/pos/rot1 1. 0. -0.
 #/gps/pos/rot2 0. 0. 1
+
+
+
+# circular plane source
+/gps/pos/type Plane
+/gps/pos/shape Circle
+
+/gps/pos/centre 0. 0. -951.01 mm  # Position of the center
+/gps/pos/radius 564.19 mm          # Radius of the circular source
+
+
 
 
 
